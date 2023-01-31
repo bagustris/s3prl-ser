@@ -107,17 +107,15 @@ If you find this toolkit useful, please consider citing following papers.
 
 ```
 @article{Atmaja2022h,
-author = {Atmaja, Bagus Tris and Sasou, Akira},
-doi = {10.1109/ACCESS.2022.3225198},
-file = {:home/bagus/Documents/Mendeley Desktop/Evaluating{\_}Self-Supervised{\_}Speech{\_}Representations{\_}for{\_}Speech{\_}Emotion{\_}Recognition.pdf:pdf},
-issn = {2169-3536},
-journal = {IEEE Access},
-mendeley-groups = {cough},
-pages = {124396--124407},
-title = {{Evaluating Self-Supervised Speech Representations for Speech Emotion Recognition}},
-url = {https://ieeexplore.ieee.org/document/9964237/},
-volume = {10},
-year = {2022}
+  author = {Atmaja, Bagus Tris and Sasou, Akira},
+  doi = {10.1109/ACCESS.2022.3225198},
+  issn = {2169-3536},
+  journal = {IEEE Access},
+  pages = {124396--124407},
+  title = {{Evaluating Self-Supervised Speech Representations for Speech Emotion Recognition}},
+  url = {https://ieeexplore.ieee.org/document/9964237/},
+  volume = {10},
+  year = {2022}
 }
 
 @inproceedings{yang21c_interspeech,
