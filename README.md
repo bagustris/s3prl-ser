@@ -10,11 +10,8 @@
 </p>
 
 # S3PRL-SER
-S3PRL for Speech Emotion Recognition
+S3PRL for Speech Emotion Recognition. See s3prl > downstream for supported speech emotion datasets.
 
-## Notice for pull requests
-
-Please first discuss with us on the issue page about your feature request before implementing the actual pull request, so we can discuss about how to achieve the functionality. If we did not discuss about the detail, it is highly possible that we are not accepting the pull request due to the difficulty of maintenance.
 
 ## Environment compatibilities [![CI](https://github.com/s3prl/s3prl/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/s3prl/s3prl/actions/workflows/ci.yml)
 
@@ -24,7 +21,7 @@ We support the following environments. The test cases are ran with **[tox](./tox
 | --- | --- |
 | os  | `ubuntu-18.04`, `ubuntu-20.04` |
 | python | `3.7`, `3.8`, `3.9`, `3.10` |
-| pytorch | `1.8.1`, `1.9.1`, `1.10.2`, `1.11.0`, `1.12.1` |
+| pytorch | `1.13.1` |
 
 ## What's New
 
@@ -44,24 +41,15 @@ We support the following environments. The test cases are ran with **[tox](./tox
 This is an open source toolkit called **s3prl**, which stands for **S**elf-**S**upervised **S**peech **P**re-training and **R**epresentation **L**earning.
 Self-supervised speech pre-trained models are called **upstream** in this toolkit, and are utilized in various **downstream** tasks.
 
-The toolkit has **three major usages**:
-
-### Pretrain
-
-- Pretrain upstream models, including Mockingjay, Audio ALBERT and TERA.
-- Document: [**pretrain/README.md**](./s3prl/pretrain/README.md)
-
-### Upstream
-
-- Easily load most of the existing upstream models with pretrained weights in a unified I/O interface.
-- Pretrained models are registered through **torch.hub**, which means you can use these models in your own project by one-line plug-and-play without depending on this toolkit's coding style.
-- Document: [**upstream/README.md**](./s3prl/upstream/README.md)
+Unlike the original S3PRL, the S3PRL-SER has **a single usage** on Downstream:
 
 ### Downstream
 
 - Utilize upstream models in lots of downstream tasks
 - Benchmark upstream models with [**SUPERB Benchmark**](./s3prl/downstream/docs/superb.md)
 - Document: [**downstream/README.md**](./s3prl/downstream/README.md)
+
+Please refer to original S3PRL repository if you to experiment with **Pre-train** and **Upstream** usages.
 
 Below is an **intuitive illustration** on how this toolkit may help you:
 \
@@ -75,7 +63,7 @@ If you find this toolkit helpful to your research, please do consider citing [ou
 
 ## Installation
 
-1. **Python** >= 3.6
+1. **Python** >= 3.8
 2. Install **sox** on your OS
 3. Install s3prl: [Read doc](https://s3prl.github.io/s3prl/tutorial/installation.html#) or `pip install -e ".[all]"`
 4. (Optional) Some upstream models require special dependencies. If you encounter error with a specific upstream model, you can look into the `README.md` under each `upstream` folder. E.g., `upstream/pase/README.md`
@@ -111,161 +99,27 @@ If you find this toolkit helpful to your research, please do consider citing [ou
 
 The majority of S3PRL Toolkit is licensed under the Apache License version 2.0, however all the files authored by Facebook, Inc. (which have explicit copyright statement on the top) are licensed under CC-BY-NC.
 
-## Used by
-<details><summary>List of papers that used our toolkit (Feel free to add your own paper by making a pull request)</summary><p>
 
-### Self-Supervised Pretraining
-
-+ [Mockingjay: Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders (Liu et al., 2020)](https://arxiv.org/abs/1910.12638)
-  ```
-  @article{mockingjay,
-     title={Mockingjay: Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders},
-     ISBN={9781509066315},
-     url={http://dx.doi.org/10.1109/ICASSP40776.2020.9054458},
-     DOI={10.1109/icassp40776.2020.9054458},
-     journal={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-     publisher={IEEE},
-     author={Liu, Andy T. and Yang, Shu-wen and Chi, Po-Han and Hsu, Po-chun and Lee, Hung-yi},
-     year={2020},
-     month={May}
-  }
-  ```
-+ [TERA: Self-Supervised Learning of Transformer Encoder Representation for Speech (Liu et al., 2020)](https://arxiv.org/abs/2007.06028)
-  ```
-  @misc{tera,
-      title={TERA: Self-Supervised Learning of Transformer Encoder Representation for Speech},
-      author={Andy T. Liu and Shang-Wen Li and Hung-yi Lee},
-      year={2020},
-      eprint={2007.06028},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS}
-  }
-  ```
-+ [Audio ALBERT: A Lite BERT for Self-supervised Learning of Audio Representation (Chi et al., 2020)](https://arxiv.org/abs/2005.08575)
-  ```
-  @inproceedings{audio_albert,
-      title={Audio ALBERT: A Lite BERT for Self-supervised Learning of Audio Representation},
-      author={Po-Han Chi and Pei-Hung Chung and Tsung-Han Wu and Chun-Cheng Hsieh and Shang-Wen Li and Hung-yi Lee},
-      year={2020},
-      booktitle={SLT 2020},
-  }
-  ```
-
-### Explanability
-
-+ [Understanding Self-Attention of Self-Supervised Audio Transformers (Yang et al., 2020)](https://arxiv.org/abs/2006.03265)
-  ```
-  @inproceedings{understanding_sat,
-      author={Shu-wen Yang and Andy T. Liu and Hung-yi Lee},
-      title={{Understanding Self-Attention of Self-Supervised Audio Transformers}},
-      year=2020,
-      booktitle={Proc. Interspeech 2020},
-      pages={3785--3789},
-      doi={10.21437/Interspeech.2020-2231},
-      url={http://dx.doi.org/10.21437/Interspeech.2020-2231}
-  }
-  ```
-
-### Adversarial Attack
-
-+ [Defense for Black-box Attacks on Anti-spoofing Models by Self-Supervised Learning (Wu et al., 2020)](https://arxiv.org/abs/2006.03214), code for computing LNSR: [utility/observe_lnsr.py](https://github.com/s3prl/s3prl/blob/master/utility/observe_lnsr.py)
-  ```
-  @inproceedings{mockingjay_defense,
-      author={Haibin Wu and Andy T. Liu and Hung-yi Lee},
-      title={{Defense for Black-Box Attacks on Anti-Spoofing Models by Self-Supervised Learning}},
-      year=2020,
-      booktitle={Proc. Interspeech 2020},
-      pages={3780--3784},
-      doi={10.21437/Interspeech.2020-2026},
-      url={http://dx.doi.org/10.21437/Interspeech.2020-2026}
-  }
-  ```
-
-+ [Adversarial Defense for Automatic Speaker Verification by Cascaded Self-Supervised Learning Models (Wu et al., 2021)](https://arxiv.org/abs/2102.07047)
-  ```
-  @misc{asv_ssl,
-      title={Adversarial defense for automatic speaker verification by cascaded self-supervised learning models}, 
-      author={Haibin Wu and Xu Li and Andy T. Liu and Zhiyong Wu and Helen Meng and Hung-yi Lee},
-      year={2021},
-      eprint={2102.07047},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS}
-  ```
-
-### Voice Conversion
-
-+ [S2VC: A Framework for Any-to-Any Voice Conversion with Self-Supervised Pretrained Representations (Lin et al., 2021)](https://arxiv.org/abs/2104.02901)
-  ```
-  @misc{s2vc,
-        title={S2VC: A Framework for Any-to-Any Voice Conversion with Self-Supervised Pretrained Representations}, 
-        author={Jheng-hao Lin and Yist Y. Lin and Chung-Ming Chien and Hung-yi Lee},
-        year={2021},
-        eprint={2104.02901},
-        archivePrefix={arXiv},
-        primaryClass={eess.AS}
-  }
-  ```
-
-### Benchmark and Evaluation
-
-+ [SUPERB: Speech processing Universal PERformance Benchmark (Yang et al., 2021)](https://arxiv.org/abs/2105.01051)
-  ```
-  @misc{superb,
-        title={SUPERB: Speech processing Universal PERformance Benchmark}, 
-        author={Shu-wen Yang and Po-Han Chi and Yung-Sung Chuang and Cheng-I Jeff Lai and Kushal Lakhotia and Yist Y. Lin and Andy T. Liu and Jiatong Shi and Xuankai Chang and Guan-Ting Lin and Tzu-Hsien Huang and Wei-Cheng Tseng and Ko-tik Lee and Da-Rong Liu and Zili Huang and Shuyan Dong and Shang-Wen Li and Shinji Watanabe and Abdelrahman Mohamed and Hung-yi Lee},
-        year={2021},
-        eprint={2105.01051},
-        archivePrefix={arXiv},
-        primaryClass={cs.CL}
-  }
-  ```
-
-+ [Utilizing Self-supervised Representations for MOS Prediction (Tseng et al., 2021)](https://arxiv.org/abs/2104.03017)
-  ```
-  @misc{ssr_mos,
-      title={Utilizing Self-supervised Representations for MOS Prediction}, 
-      author={Wei-Cheng Tseng and Chien-yu Huang and Wei-Tsung Kao and Yist Y. Lin and Hung-yi Lee},
-      year={2021},
-      eprint={2104.03017},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS}
-  }
-  ```
-}
-
-</p></details>
 
 ## Citation
 
 If you find this toolkit useful, please consider citing following papers.
 
-- If you use our pre-training scripts, or the downstream tasks considered in *TERA* and *Mockingjay*, please consider citing the following:
 ```
-@misc{tera,
-  title={TERA: Self-Supervised Learning of Transformer Encoder Representation for Speech},
-  author={Andy T. Liu and Shang-Wen Li and Hung-yi Lee},
-  year={2020},
-  eprint={2007.06028},
-  archivePrefix={arXiv},
-  primaryClass={eess.AS}
+@article{Atmaja2022h,
+author = {Atmaja, Bagus Tris and Sasou, Akira},
+doi = {10.1109/ACCESS.2022.3225198},
+file = {:home/bagus/Documents/Mendeley Desktop/Evaluating{\_}Self-Supervised{\_}Speech{\_}Representations{\_}for{\_}Speech{\_}Emotion{\_}Recognition.pdf:pdf},
+issn = {2169-3536},
+journal = {IEEE Access},
+mendeley-groups = {cough},
+pages = {124396--124407},
+title = {{Evaluating Self-Supervised Speech Representations for Speech Emotion Recognition}},
+url = {https://ieeexplore.ieee.org/document/9964237/},
+volume = {10},
+year = {2022}
 }
-```
-```
-@article{mockingjay,
-   title={Mockingjay: Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders},
-   ISBN={9781509066315},
-   url={http://dx.doi.org/10.1109/ICASSP40776.2020.9054458},
-   DOI={10.1109/icassp40776.2020.9054458},
-   journal={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-   publisher={IEEE},
-   author={Liu, Andy T. and Yang, Shu-wen and Chi, Po-Han and Hsu, Po-chun and Lee, Hung-yi},
-   year={2020},
-   month={May}
-}
-```
 
-- If you use our organized upstream interface and features, or the *SUPERB* downstream benchmark, please consider citing the following:
-```
 @inproceedings{yang21c_interspeech,
   author={Shu-wen Yang and Po-Han Chi and Yung-Sung Chuang and Cheng-I Jeff Lai and Kushal Lakhotia and Yist Y. Lin and Andy T. Liu and Jiatong Shi and Xuankai Chang and Guan-Ting Lin and Tzu-Hsien Huang and Wei-Cheng Tseng and Ko-tik Lee and Da-Rong Liu and Zili Huang and Shuyan Dong and Shang-Wen Li and Shinji Watanabe and Abdelrahman Mohamed and Hung-yi Lee},
   title={{SUPERB: Speech Processing Universal PERformance Benchmark}},
