@@ -1,0 +1,3 @@
+[console_scripts]
+s3prl-main = s3prl.main:main
+
