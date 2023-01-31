@@ -11,7 +11,7 @@ by following steps in `utility` directory.
 ### Download Dataset
 
 ```bash=
-cd /path/to/data
+cd /data
 
 # Download CMU-MOSEI Dataset
 wget http://immortal.multicomp.cs.cmu.edu/raw_datasets/CMU_MOSEI.zip
@@ -26,7 +26,6 @@ Remember to modify data_dir in `config.yaml`
 
 Install dependencies using the following commands:
 ```bash=
-pip install pydub pandas
 sudo apt-get install ffmpeg libavcodec-extra
 ```
 
@@ -36,14 +35,13 @@ Run `utility/segment_audio.py` by passing the location of your CMU-MOSEI Audio f
 This script is being used to segment the audio files into different split (train, dev, and test).
 
 ```bash=
-python ./utility/segment_audio.py /path/to/CMU_MOSEI/Audio
-# For example: python ./utility/segment_audio.py /tmp/CMU_MOSEI/Audio
+python3 ./utility/segment_audio.py /data/CMU_MOSEI/Audio
 ```
 
 After that, you should have the following file structure under /path/to/CMU_MOSEI/Audio:
 
 ```
-/path/to/CMU_MOSEI/Audio
+/data/CMU-MOSEI/Audio
 ├── Full
 │   ├── COVAREP
 │   │   └── Many .mat files
@@ -56,6 +54,8 @@ After that, you should have the following file structure under /path/to/CMU_MOSE
     │   └── Many .wav files (Test set)
     └── train
         └── Many .wav files (Train set)
+
+3 directories, 22860 files
 ```
 
 ## Available Tasks
@@ -103,7 +103,7 @@ class Model(nn.Module):
     enc_layers: 2
 ```
 
-## Train a New Model
+## Train a new model
 
 Use the following code to train a model using CMU-MOSEI as downstream dataset:
 ```
