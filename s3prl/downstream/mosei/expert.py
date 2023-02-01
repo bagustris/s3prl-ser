@@ -19,7 +19,7 @@ import pandas as pd
 
 from collections import defaultdict
 import sklearn
-
+from sklearn import metrics
 from pathlib import Path
 
 
@@ -224,7 +224,7 @@ class DownstreamExpert(nn.Module):
         prefix = f"mosei/{mode}-"
 
         average = torch.FloatTensor(records["acc"]).mean().item()
-        f1 = sklearn.metrics.f1_score(
+        f1 = metrics.f1_score(
             records["original"], records["predicted"], average="macro"
         )
 

@@ -1,4 +1,4 @@
-from s3prl.downstream.timit_phone.hubconf import timit_posteriorgram
+#from s3prl.downstream.timit_phone.hubconf import timit_posteriorgram
 from s3prl.upstream.apc.hubconf import *
 from s3prl.upstream.ast.hubconf import *
 from s3prl.upstream.audio_albert.hubconf import *

@@ -105,16 +105,20 @@ class Model(nn.Module):
 
 ## Train a new model
 
-Use the following code to train a model using CMU-MOSEI as downstream dataset:
+Use the following code to train a model using CMU-MOSEI as downstream dataset (working directory: `s3prl-ser/s3prl`):
 ```
 # Training w/o DDP
 python run_downstream.py -m train -n ExpName -u fbank -d mosei
 
+# Example
+python3 run_downstream.py -m train -n mosei-wavlm -u wavlm_large -d mosei
+
 # Training w/ DDP
 CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node 2 run_downstream.py -m train -n ExpName -u fbank -d mosei
 
-# Testing
+# Test
 python run_downstream.py -m evaluate -n ExpName -u fbank -d mosei
+python3 run_downtream.py -m evaluate -e result result/downstream/mosei-wavlm
 ```
 Consequently, you can calculate the accuracy and other metrics manually from the generated txt files.
 
