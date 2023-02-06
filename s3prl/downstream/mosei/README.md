@@ -118,7 +118,7 @@ CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node 2 r
 
 # Test
 python run_downstream.py -m evaluate -n ExpName -u fbank -d mosei
-python3 run_downtream.py -m evaluate -e result result/downstream/mosei-wavlm
+python3 run_downstream.py -m evaluate -e result/downstream/mosei-wavlm/dev-best.ckpt
 ```
-Consequently, you can calculate the accuracy and other metrics manually from the generated txt files.
+Consequently, you can calculate the accuracy and other metrics manually from the generated txt files (via `calc_metrics.py` script).
 

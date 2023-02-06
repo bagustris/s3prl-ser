@@ -23,18 +23,18 @@ We support the following environments. The test cases are ran with **[tox](./tox
 | python | `3.7`, `3.8`, `3.9`, `3.10` |
 | pytorch | `1.13.1` |
 
-## What's New
+## Supported SER datasets (Status, WA, UA)
 
-* *Mar 2022*: Introduce [**SUPERB-SG**](https://arxiv.org/abs/2203.06849), see [Speech Translation](./bagustris/downstream/speech_translation), [Out-of-domain ASR](./bagustris/downstream/ctc/), [Voice Conversion](./bagustris/downstream/a2o-vc-vcc2020/), [Speech Separation](./bagustris/downstream/separation_stft/) and [Speech Enhancement](./bagustris/downstream/enhancement_stft/) for more info.
-* *Nov 2021*: Introduce [**S3PRL-VC**](https://arxiv.org/abs/2110.06280), see [Any-to-one](https://github.com/bagustris/s3prl-ser/tree/master/bagustris/downstream/a2o-vc-vcc2020) and [Any-to-any](https://github.com/bagustris/s3prl-ser/tree/master/bagustris/downstream/a2a-vc-vctk) docs for more info.
-* *Oct 2021*: Support [**DistilHuBERT**](https://arxiv.org/abs/2110.01900), see [docs](./bagustris/upstream/distiller/README.md) for more info
-* *Sep 2021:* We host a *challenge* in [*AAAI workshop: The 2nd Self-supervised Learning for Audio and Speech Processing*](https://aaai-sas-2022.github.io/)! See [**SUPERB official site**](https://superbbenchmark.org/) for the challenge details and the [**SUPERB documentation**](./bagustris/downstream/docs/superb.md) in this toolkit!
-* *Aug 2021:* We now have a tutorial that introduces our toolkit, you can **[watch it on Youtube](https://youtu.be/PkMFnS6cjAc)**!
-* *July 2021:* We are now working on packaging s3prl and reorganizing the file structure in **v0.3**. Please consider using the stable **v0.2.0** for now. We will test and release **v0.3** before August.
-* *June 2021:* Support [**SUPERB:** **S**peech processing **U**niversal **PER**formance **B**enchmark](https://arxiv.org/abs/2105.01051), submitted to Interspeech 2021. Use the tag **superb-interspeech2021** or **v0.2.0**.
-* *June 2021:* Support extracting multiple hidden states from the SSL pretrained models
-* *Jan 2021:* Readme updated with detailed instructions on how to use our latest version!
-* *Dec 2020:* We are migrating to a newer version for a more general, flexible, and scalable code. See the introduction below for more information! The legacy version can be accessed the tag **v0.1.0**.
+- CMU-MOSEI (done, 0.65, 0.24)
+- IEMOCAP (in-progress, 0.73, 0.71)
+- MSP-IMPROV (in-progress, 0.67, 0.64)
+- MSP-Podcast (in progress, 0.71, 0.54)
+- JTES (in-progress, 0.78, 0.78)
+- EmoFilm (in-progress, 0.XX, 0.XX)
+- AESDD (planned)
+- CaFE (planned)
+- SAVEE (planned)
+
 
 ## Introduction and Usages
 
@@ -49,7 +49,7 @@ Unlike the original S3PRL, the S3PRL-SER has **a single usage** on Downstream:
 - Benchmark upstream models with [**SUPERB Benchmark**](./bagustris/downstream/docs/superb.md)
 - Document: [**downstream/README.md**](./bagustris/downstream/README.md)
 
-Please refer to original S3PRL repository if you to experiment with **Pre-train** and **Upstream** usages.
+Please refer to [the original S3PRL repository](https://github.com/s3prl/s3prl) if you want to experiment with **Pre-train** and **Upstream** usages.
 
 Below is an **intuitive illustration** on how this toolkit may help you:
 \
