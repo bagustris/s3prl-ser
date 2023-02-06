@@ -6,14 +6,14 @@
     <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="CC_BY_NC License" src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" /></a>
     <a href="https://github.com/bagustris/s3prl-ser/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/bagustris/s3prl-ser/actions/workflows/ci.yml/badge.svg?branch=main&event=push"></a>
     <a href="#development-pattern-for-contributors"><img alt="Codecov" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg"></a>
-    <a href="https://github.com/bagustris/s3prl-ser/issues"><img alt="Bitbucket open issues" src="https://img.shields.io/github/issues/s3prl/s3prl"></a>
+    <a href="https://github.com/bagustris/s3prl-ser/issues"><img alt="Bitbucket open issues" src="https://img.shields.io/github/issues/bagustris/s3prl"></a>
 </p>
 
 # S3PRL-SER
 S3PRL for Speech Emotion Recognition. See s3prl > downstream for supported speech emotion datasets.
 
 
-## Environment compatibilities [![CI](https://github.com/s3prl/s3prl/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/s3prl/s3prl/actions/workflows/ci.yml)
+## Environment compatibilities [![CI](https://github.com/bagustris/s3prl-ser/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/bagustris/s3prl-ser/actions/workflows/ci.yml)
 
 We support the following environments. The test cases are ran with **[tox](./tox.ini)** locally and on **[github action](.github/workflows/ci.yml)**:
 
@@ -25,10 +25,10 @@ We support the following environments. The test cases are ran with **[tox](./tox
 
 ## What's New
 
-* *Mar 2022*: Introduce [**SUPERB-SG**](https://arxiv.org/abs/2203.06849), see [Speech Translation](./s3prl/downstream/speech_translation), [Out-of-domain ASR](./s3prl/downstream/ctc/), [Voice Conversion](./s3prl/downstream/a2o-vc-vcc2020/), [Speech Separation](./s3prl/downstream/separation_stft/) and [Speech Enhancement](./s3prl/downstream/enhancement_stft/) for more info.
-* *Nov 2021*: Introduce [**S3PRL-VC**](https://arxiv.org/abs/2110.06280), see [Any-to-one](https://github.com/s3prl/s3prl/tree/master/s3prl/downstream/a2o-vc-vcc2020) and [Any-to-any](https://github.com/s3prl/s3prl/tree/master/s3prl/downstream/a2a-vc-vctk) docs for more info.
-* *Oct 2021*: Support [**DistilHuBERT**](https://arxiv.org/abs/2110.01900), see [docs](./s3prl/upstream/distiller/README.md) for more info
-* *Sep 2021:* We host a *challenge* in [*AAAI workshop: The 2nd Self-supervised Learning for Audio and Speech Processing*](https://aaai-sas-2022.github.io/)! See [**SUPERB official site**](https://superbbenchmark.org/) for the challenge details and the [**SUPERB documentation**](./s3prl/downstream/docs/superb.md) in this toolkit!
+* *Mar 2022*: Introduce [**SUPERB-SG**](https://arxiv.org/abs/2203.06849), see [Speech Translation](./bagustris/downstream/speech_translation), [Out-of-domain ASR](./bagustris/downstream/ctc/), [Voice Conversion](./bagustris/downstream/a2o-vc-vcc2020/), [Speech Separation](./bagustris/downstream/separation_stft/) and [Speech Enhancement](./bagustris/downstream/enhancement_stft/) for more info.
+* *Nov 2021*: Introduce [**S3PRL-VC**](https://arxiv.org/abs/2110.06280), see [Any-to-one](https://github.com/bagustris/s3prl-ser/tree/master/bagustris/downstream/a2o-vc-vcc2020) and [Any-to-any](https://github.com/bagustris/s3prl-ser/tree/master/bagustris/downstream/a2a-vc-vctk) docs for more info.
+* *Oct 2021*: Support [**DistilHuBERT**](https://arxiv.org/abs/2110.01900), see [docs](./bagustris/upstream/distiller/README.md) for more info
+* *Sep 2021:* We host a *challenge* in [*AAAI workshop: The 2nd Self-supervised Learning for Audio and Speech Processing*](https://aaai-sas-2022.github.io/)! See [**SUPERB official site**](https://superbbenchmark.org/) for the challenge details and the [**SUPERB documentation**](./bagustris/downstream/docs/superb.md) in this toolkit!
 * *Aug 2021:* We now have a tutorial that introduces our toolkit, you can **[watch it on Youtube](https://youtu.be/PkMFnS6cjAc)**!
 * *July 2021:* We are now working on packaging s3prl and reorganizing the file structure in **v0.3**. Please consider using the stable **v0.2.0** for now. We will test and release **v0.3** before August.
 * *June 2021:* Support [**SUPERB:** **S**peech processing **U**niversal **PER**formance **B**enchmark](https://arxiv.org/abs/2105.01051), submitted to Interspeech 2021. Use the tag **superb-interspeech2021** or **v0.2.0**.
@@ -46,8 +46,8 @@ Unlike the original S3PRL, the S3PRL-SER has **a single usage** on Downstream:
 ### Downstream
 
 - Utilize upstream models in lots of downstream tasks
-- Benchmark upstream models with [**SUPERB Benchmark**](./s3prl/downstream/docs/superb.md)
-- Document: [**downstream/README.md**](./s3prl/downstream/README.md)
+- Benchmark upstream models with [**SUPERB Benchmark**](./bagustris/downstream/docs/superb.md)
+- Document: [**downstream/README.md**](./bagustris/downstream/README.md)
 
 Please refer to original S3PRL repository if you to experiment with **Pre-train** and **Upstream** usages.
 
@@ -57,7 +57,7 @@ Below is an **intuitive illustration** on how this toolkit may help you:
 <img src="https://github.com/bagustris/s3prl-ser/raw/master/file/S3PRL-interface.png" width="900"/>
 \
 \
-Feel free to use or modify our toolkit in your research. Here is a [list of papers using our toolkit](#used-by). Any question, bug report or improvement suggestion is welcome through [opening up a new issue](https://github.com/s3prl/s3prl/issues). 
+Feel free to use or modify our toolkit in your research. Here is a [list of papers using our toolkit](#used-by). Any question, bug report or improvement suggestion is welcome through [opening up a new issue](https://github.com/bagustris/s3prl-ser/issues). 
 
 If you find this toolkit helpful to your research, please do consider citing [our papers](#citation), thanks!
 
@@ -65,7 +65,7 @@ If you find this toolkit helpful to your research, please do consider citing [ou
 
 1. **Python** >= 3.8
 2. Install **sox** on your OS
-3. Install s3prl: [Read doc](https://s3prl.github.io/s3prl/tutorial/installation.html#) or `pip install -e ".[all]"`
+3. Install s3prl: [Read doc](https://s3prl.github.io/bagustris/tutorial/installation.html#) or `pip install -e ".[all]"`
 4. (Optional) Some upstream models require special dependencies. If you encounter error with a specific upstream model, you can look into the `README.md` under each `upstream` folder. E.g., `upstream/pase/README.md`
 
 ## Development pattern for contributors
@@ -86,7 +86,7 @@ If you find this toolkit helpful to your research, please do consider citing [ou
 * [fairseq](https://github.com/pytorch/fairseq), Facebook AI Research.
 * [CPC](https://github.com/facebookresearch/CPC_audio), Facebook AI Research.
 * [APC](https://github.com/iamyuanchung/Autoregressive-Predictive-Coding), Yu-An Chung.
-* [VQ-APC](https://github.com/s3prl/VQ-APC), Yu-An Chung.
+* [VQ-APC](https://github.com/bagustris/VQ-APC), Yu-An Chung.
 * [NPC](https://github.com/Alexander-H-Liu/NPC), Alexander-H-Liu.
 * [End-to-end-ASR-Pytorch](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch), Alexander-H-Liu
 * [Mockingjay](https://github.com/andi611/Mockingjay-Speech-Representation), Andy T. Liu.
