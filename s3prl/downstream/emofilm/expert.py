@@ -1,27 +1,17 @@
 import os
-
-# import math
-import torch
-
-# import random
-
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
 from torch.nn.utils.rnn import pad_sequence
+from collections import defaultdict
+import pandas as pd
+import random
+from pathlib import Path
 
 from .model import Model
 from .dataset import EmoFilmDataset
-
-import pandas as pd
-
-# import sys
-
-from collections import defaultdict
 import sklearn
-from sklearn import metrics
-from pathlib import Path
-
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 
 class DownstreamExpert(nn.Module):
     """
@@ -35,11 +25,9 @@ class DownstreamExpert(nn.Module):
             upstream_dim: int
                 Different upstream will give different representation dimension
                 You might want to first project them to the same dimension
-
             downstream_expert: dict
                 The 'downstream_expert' field specified in your downstream config file
                 eg. downstream/downstream/example/config.yaml
-
             **kwargs: dict
                 The arguments specified by the argparser in run_downstream.py
                 in case you need it.
@@ -51,41 +39,27 @@ class DownstreamExpert(nn.Module):
         self.modelrc = downstream_expert["modelrc"]
 
         # Convert Label File to (filename, label) for each split
-        self.train_data, self.dev_data, self.test_data = [], [], []
-        df = pd.read_csv(self.datarc["label_path"], encoding="latin-1")
-        for row in df.itertuples():
-            filename = row.file + "_" + str(row.index) + ".wav"
-            # for 2-clas sentiment with negative and non-negative
-            # neutral is counted as positive
-            if self.datarc["num_class"] == 2:
-                label = row.label2a
-            # for three-class sentiment with positive, neutral and negative
-            elif self.datarc["num_class"] == 3:
-                label = (row.label2b + 1) # avoid cuda error: device-side ...
-            # for six-class emotion
-            elif self.datarc["num_class"] == 6:
-                label = row.label6
-            # for seven-class sentiment
-            elif self.datarc["num_class"] == 7:
-                # Avoid CUDA error:
-                # device-side assert triggered (due to negative label)
-                label = (row.label7 + 3)
-            else:
-                raise ValueError("Unsupported num_class")
+        self.train_data,  self.dev_data, self.test_data = [], [], []
+        df = pd.read_csv(self.datarc["label_path"])
+        for index, row in df.iterrows():
+            file_path = row.file
+            label = row.emo
             # split train, dev, test
-            if row.split == 0:
-                self.train_data.append((filename, label))
-            elif row.split == 1:
-                self.dev_data.append((filename, label))
-            elif row.split == 2:
-                self.test_data.append((filename, label))
+            if row['set'] == 0:
+                self.train_data.append((file_path, label))
+            elif row['set'] == 2:  # dev is set == 2 in the csv
+                self.dev_data.append((file_path, label))
+            elif row['set'] == 1:
+                self.test_data.append((file_path, label))
 
-        self.train_dataset = EmoFilmDataset("train",
-            self.train_data, self.datarc["data_dir"])
-        # self.dev_dataset = EmoFilmDataset("dev",
-        #     self.dev_data, self.datarc["data_dir"])
-        self.test_dataset = EmoFilmDataset("test", 
-            self.test_data, self.datarc["data_dir"])
+        self.train_dataset = EmoFilmDataset(self.train_data, self.datarc["data_dir"])
+        self.dev_dataset = EmoFilmDataset(self.dev_data, self.datarc["data_dir"])
+        self.test_dataset = EmoFilmDataset(self.test_data,  self.datarc["data_dir"])
+
+        # self.train_dataset = EmoFilmDataset("train",
+        #     self.train_data, self.datarc["data_dir"])
+        # self.test_dataset = EmoFilmDataset("test", 
+        #     self.test_data, self.datarc["data_dir"])
 
         self.connector = nn.Linear(upstream_dim, self.modelrc["input_dim"])
         self.model = Model(output_class_num=self.datarc["num_class"],
@@ -119,9 +93,7 @@ class DownstreamExpert(nn.Module):
     """
     Datalaoder Specs:
         Each dataloader should output a list in the following format:
-
         [[wav1, wav2, ...], your_other_contents1, your_other_contents2, ...]
-
         where wav1, wav2 ... are in variable length
         each wav is torch.FloatTensor in cpu with:
             1. dim() == 1
@@ -152,27 +124,21 @@ class DownstreamExpert(nn.Module):
         This function will be used in both train/dev/test, you can use
         self.training (bool) to control the different behavior for
         training or evaluation (dev/test)
-
         Args:
             mode: str
                 'train' or 'dev' or 'test'
-
             features:
                 list of unpadded features [feat1, feat2, ...]
                 each feat is in torch.FloatTensor and already
                 put in the device assigned by command-line args
-
             records:
                 defaultdict(list), by dumping contents into records,
                 these contents can be averaged and logged on Tensorboard
                 later by self.log_records
-
                 Note1. downstream/runner.py will call self.log_records
                     1. every log_step during training
                     2. once after evalute the whole dev/test dataloader
-
                 Note2. log_step is defined in your downstream config
-
         Return:
             loss:
                 the loss to be optimized, should not be detached
@@ -205,26 +171,22 @@ class DownstreamExpert(nn.Module):
         This function will be used in both train/dev/test, you can use
         self.training (bool) to control the different behavior for
         training or evaluation (dev/test)
-
         Args:
             mode: str
                 'train' or 'dev' or 'test'
-
             records:
                 defaultdict(list), contents already prepared by self.forward
-
             logger:
                 Tensorboard SummaryWriter
                 please use f'{prefix}your_content_name' as key name
                 to log your customized contents
-
             global_step:
                 global_step in runner, which is helpful for Tensorboard logging
         """
-        prefix = f"mosei/{mode}-"
+        prefix = f"emofilm/{mode}-"
 
         average = torch.FloatTensor(records["acc"]).mean().item()
-        f1 = metrics.f1_score(
+        f1 = f1_score(
             records["original"], records["predicted"], average="macro"
         )
 
