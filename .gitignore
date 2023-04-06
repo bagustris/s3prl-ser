@@ -147,6 +147,7 @@ data
 *.png
 *.pkl
 *.yaml
+!config.yaml
 *.sh
 *.pt
 *.tar
