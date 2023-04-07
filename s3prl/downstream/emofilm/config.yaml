@@ -31,4 +31,4 @@ downstream_expert:
     eval_batch_size: 2
 
   modelrc:
-    input_dim: 512
+    input_dim: 128
