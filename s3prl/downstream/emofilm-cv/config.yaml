@@ -24,7 +24,8 @@ optimizer:
 downstream_expert:
   datarc:
     data_dir: /data/EmoFilm/wav_corpus_16k
-    label_path: ./downstream/emofilm/EmoFilm_labels_16k_train_dev_split.csv
+    label_path: ./downstream/emofilm-cv/fold_1.csv
+    # test_fold: fold1
     num_class: 5  # options: 2, 3, 6, 7
     num_workers: 10
     train_batch_size: 2
