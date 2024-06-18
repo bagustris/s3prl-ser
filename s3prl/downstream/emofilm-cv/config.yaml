@@ -24,12 +24,12 @@ optimizer:
 downstream_expert:
   datarc:
     data_dir: /data/EmoFilm/wav_corpus_16k
-    label_path: ./downstream/emofilm-cv/fold_1.csv
+    label_path: ./downstream/emofilm-cv/fold_3.csv
     # test_fold: fold1
-    num_class: 5  # options: 2, 3, 6, 7
-    num_workers: 10
+    num_class: 5  
+    num_workers: 20
     train_batch_size: 2
     eval_batch_size: 2
 
   modelrc:
-    input_dim: 256
+    input_dim: 128
