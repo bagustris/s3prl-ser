@@ -23,19 +23,13 @@ Provides-Extra: dev
 <p align="center">
     <img src="https://github.com/bagustris/s3prl-ser/raw/master/file/S3PRL-logo.png" width="900"/>
     <br>
-    <br>
-    <a href="./LICENSE.txt"><img alt="Apache License 2.0" src="https://raw.githubusercontent.com/bagustris/s3prl-ser/main/file/license.svg" /></a>
-    <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="CC_BY_NC License" src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" /></a>
-    <a href="https://github.com/bagustris/s3prl-ser/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/bagustris/s3prl-ser/actions/workflows/ci.yml/badge.svg?branch=main&event=push"></a>
-    <a href="#development-pattern-for-contributors"><img alt="Codecov" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg"></a>
-    <a href="https://github.com/bagustris/s3prl-ser/issues"><img alt="Bitbucket open issues" src="https://img.shields.io/github/issues/bagustris/s3prl"></a>
 </p>
 
 # S3PRL-SER
 S3PRL for Speech Emotion Recognition. See s3prl > downstream for supported speech emotion datasets.
 
 
-## Environment compatibilities [![CI](https://github.com/bagustris/s3prl-ser/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/bagustris/s3prl-ser/actions/workflows/ci.yml)
+## Environment compatibilities
 
 We support the following environments. The test cases are ran with **[tox](./tox.ini)** locally and on **[github action](.github/workflows/ci.yml)**:
 
@@ -60,7 +54,7 @@ We support the following environments. The test cases are ran with **[tox](./tox
 
 ## Introduction and Usages
 
-This is an open source toolkit called **s3prl**, which stands for **S**elf-**S**upervised **S**peech **P**re-training and **R**epresentation **L**earning.
+This is an open source toolkit called **s3prl-ser**, which stands for **S**elf-**S**upervised **S**peech **P**re-training and **R**epresentation **L**earning for Speech Emotion Recognition.
 Self-supervised speech pre-trained models are called **upstream** in this toolkit, and are utilized in various **downstream** tasks.
 
 Unlike the original S3PRL, the S3PRL-SER has **a single usage** on Downstream:

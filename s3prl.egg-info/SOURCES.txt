@@ -5,6 +5,8 @@ requirements/all.txt
 requirements/dev.txt
 requirements/install.txt
 s3prl/__init__.py
+s3prl/calc_perf.py
+s3prl/calc_perf2.py
 s3prl/hub.py
 s3prl/main.py
 s3prl/optimizers.py
@@ -75,6 +77,16 @@ s3prl/downstream/__init__.py
 s3prl/downstream/model.py
 s3prl/downstream/runner.py
 s3prl/downstream/specaug.py
+s3prl/downstream/emofilm/__init__.py
+s3prl/downstream/emofilm/convert_to_16k.py
+s3prl/downstream/emofilm/dataset.py
+s3prl/downstream/emofilm/expert.py
+s3prl/downstream/emofilm/model.py
+s3prl/downstream/emofilm-cv/__init__.py
+s3prl/downstream/emofilm-cv/convert_to_16k.py
+s3prl/downstream/emofilm-cv/dataset.py
+s3prl/downstream/emofilm-cv/expert.py
+s3prl/downstream/emofilm-cv/model.py
 s3prl/downstream/emotion/IEMOCAP_preprocess.py
 s3prl/downstream/emotion/__init__.py
 s3prl/downstream/emotion/dataset.py
