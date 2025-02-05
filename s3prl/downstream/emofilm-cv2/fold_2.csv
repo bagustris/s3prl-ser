@@ -1,0 +1,250 @@
+file,speaker,film,gender,language,emo
+f_ans001ait_16k.wav,maria pia di meo,the hours,f,it,fe
+f_ans002ait_16k.wav,maria pia di meo,the hours,f,it,fe
+f_ans004ait_16k.wav,maria pia di meo,the hours,f,it,fe
+f_ans005ait_16k.wav,maria pia di meo,the hours,f,it,fe
+f_ans009ait_16k.wav,germana dominici,falling down,f,it,fe
+f_ans009bit_16k.wav,germana dominici,falling down,f,it,fe
+f_ans010bit_16k.wav,germana dominici,falling down,f,it,fe
+f_ans018ait_16k.wav,chiara colizzi,the interpreter,f,it,fe
+f_ans019aen_16k.wav,nicole kidman,the interpreter,f,en,fe
+f_ans019ait_16k.wav,chiara colizzi,the interpreter,f,it,fe
+f_ans021aen_16k.wav,nicole kidman,the interpreter,f,en,fe
+f_ans048aen_16k.wav,nicole kidman,the interpreter,f,en,fe
+f_ans048ait_16k.wav,chiara colizzi,the interpreter,f,it,fe
+f_ans049aen_16k.wav,nicole kidman,the interpreter,f,en,fe
+f_ans050aen_16k.wav,nicole kidman,the interpreter,f,en,fe
+f_ans117ait_16k.wav,chiara colizzi,titanic,f,it,fe
+f_ans118ait_16k.wav,chiara colizzi,titanic,f,it,fe
+f_ans901aen_16k.wav,nicole kidman,the others,f,en,fe
+f_ans901ben_16k.wav,nicole kidman,the others,f,en,fe
+f_ans901cen_16k.wav,nicole kidman,the others,f,en,fe
+f_ans902aen_16k.wav,nicole kidman,the others,f,en,fe
+f_ans902ben_16k.wav,nicole kidman,the others,f,en,fe
+f_ans902cen_16k.wav,nicole kidman,the others,f,en,fe
+f_ans902den_16k.wav,nicole kidman,the others,f,en,fe
+f_ans902een_16k.wav,nicole kidman,the others,f,en,fe
+f_ans902fen_16k.wav,nicole kidman,the others,f,en,fe
+f_ans903aen_16k.wav,nicole kidman,the others,f,en,fe
+f_dis008aen_16k.wav,sarah polley,my life without me,f,en,co
+f_dis008aes_16k.wav,alba sola,my life without me,f,es,co
+f_dis009aes_16k.wav,alba sola,my life without me,f,es,co
+f_dis010aen_16k.wav,nicole kidman,the hours,f,en,co
+f_dis010ait_16k.wav,chiara colizzi,the hours,f,it,co
+f_dis017ait_16k.wav,maria pia di meo,the devil wears prada,f,it,co
+f_dis020ait_16k.wav,maria pia di meo,the devil wears prada,f,it,co
+f_dis024ait_16k.wav,eleonora de angelis,bicentennial man,f,it,co
+f_dis024bit_16k.wav,eleonora de angelis,bicentennial man,f,it,co
+f_dis025ait_16k.wav,eleonora de angelis,bicentennial man,f,it,co
+f_dis026ait_16k.wav,pinella dragani,bicentennial man,f,it,co
+f_dis027ait_16k.wav,unknown female,crash,f,it,co
+f_dis027bit_16k.wav,unknown female,crash,f,it,co
+f_dis028ait_16k.wav,unknown female,crash,f,it,co
+f_dis048ait_16k.wav,chiara colizzi,the interpreter,f,it,co
+f_dis106ait_16k.wav,chiara colizzi,titanic,f,it,co
+f_dis107ait_16k.wav,chiara colizzi,titanic,f,it,co
+f_dis108ait_16k.wav,maria pia di meo,the devil wears prada,f,it,co
+f_dis109ait_16k.wav,myriam catania,atonement,f,it,co
+f_dis150ait_16k.wav,maria pia di meo,the devil wears prada,f,it,co
+f_dis219ait_16k.wav,chiara colizzi,titanic,f,it,co
+f_dis901aen_16k.wav,nicole kidman,the others,f,en,co
+f_dis902aen_16k.wav,nicole kidman,the others,f,en,co
+f_gio011bit_16k.wav,maria pia di meo,philadelphia,f,it,ha
+f_gio012ait_16k.wav,maria pia di meo,philadelphia,f,it,ha
+f_gio030ait_16k.wav,eleonora de angelis,bicentennial man,f,it,ha
+f_gio034ait_16k.wav,pinella dragani,bicentennial man,f,it,ha
+f_gio038aes_16k.wav,olga cano,the sixth sense,f,es,ha
+f_gio100ait_16k.wav,pinella dragani,bicentennial man,f,it,ha
+f_gio101ait_16k.wav,unknown female,atonement,f,it,ha
+f_gio103ait_16k.wav,angiola baggi,titanic,f,it,ha
+f_gio106ait_16k.wav,chiara colizzi,la vida secreta de las palabras,f,it,ha
+f_gio108ait_16k.wav,angiola baggi,titanic,f,it,ha
+f_gio112ait_16k.wav,chiara colizzi,la vida secreta de las palabras,f,it,ha
+f_gio113ait_16k.wav,angiola baggi,titanic,f,it,ha
+f_gio115bit_16k.wav,chiara colizzi,la vida secreta de las palabras,f,it,ha
+f_gio116bit_16k.wav,chiara colizzi,the reader,f,it,ha
+f_gio122ait_16k.wav,angiola baggi,titanic,f,it,ha
+f_gio133aes_16k.wav,unknown female,atonement,f,es,ha
+f_gio133ait_16k.wav,unknown female,atonement,f,it,ha
+f_gio134ait_16k.wav,tatiana dessi,matrimonio greco,f,it,ha
+f_gio144aes_16k.wav,alba sola,meet joe black,f,es,ha
+f_gio162bit_16k.wav,laura lenghi,million dollar baby,f,it,ha
+f_gio189aes_16k.wav,unknown female,american history x,f,es,ha
+f_gio203aes_16k.wav,unknown female,atonement,f,es,ha
+f_gio204aes_16k.wav,unknown female,atonement,f,es,ha
+f_gio344ait_16k.wav,pinella dragani,meet joe black,f,it,ha
+f_rab007aen_16k.wav,sarah polley,my life without me,f,en,an
+f_rab008aen_16k.wav,nicole kidman,the hours,f,en,an
+f_rab008ait_16k.wav,chiara colizzi,the hours,f,it,an
+f_rab009aen_16k.wav,nicole kidman,the hours,f,en,an
+f_rab009ait_16k.wav,chiara colizzi,the hours,f,it,an
+f_rab010aen_16k.wav,nicole kidman,the hours,f,en,an
+f_rab010ait_16k.wav,chiara colizzi,the hours,f,it,an
+f_rab010bit_16k.wav,chiara colizzi,the hours,f,it,an
+f_rab011aes_16k.wav,alba sola,mystic river,f,es,an
+f_rab011bes_16k.wav,alba sola,mystic river,f,es,an
+f_rab037ait_16k.wav,myriam catania,atonement,f,it,an
+f_rab042ait_16k.wav,germana dominici,falling down,f,it,an
+f_rab064ait_16k.wav,pinella dragani,bicentennial man,f,it,an
+f_rab068bit_16k.wav,pinella dragani,bicentennial man,f,it,an
+f_rab070bit_16k.wav,pinella dragani,bicentennial man,f,it,an
+f_rab089cen_16k.wav,sandra bullock,crash,f,en,an
+f_rab089ces_16k.wav,alba sola,crash,f,es,an
+f_rab090aes_16k.wav,alba sola,crash,f,es,an
+f_rab090ben_16k.wav,sandra bullock,crash,f,en,an
+f_rab090bes_16k.wav,alba sola,crash,f,es,an
+f_rab092aen_16k.wav,thandie newton,crash,f,en,an
+f_rab092ben_16k.wav,thandie newton,crash,f,en,an
+f_rab901aes_16k.wav,alba sola,crash,f,es,an
+f_tri017aes_16k.wav,alba sola,my life without me,f,es,sa
+f_tri018aes_16k.wav,alba sola,my life without me,f,es,sa
+f_tri032ait_16k.wav,roberta greganti,mystic river,f,it,sa
+f_tri032bit_16k.wav,roberta greganti,mystic river,f,it,sa
+f_tri032ces_16k.wav,alba sola,mystic river,f,es,sa
+f_tri033ait_16k.wav,roberta greganti,mystic river,f,it,sa
+f_tri033bit_16k.wav,roberta greganti,mystic river,f,it,sa
+f_tri034ait_16k.wav,roberta greganti,mystic river,f,it,sa
+f_tri049ait_16k.wav,maria pia di meo,the devil wears prada,f,it,sa
+f_tri049bit_16k.wav,maria pia di meo,the devil wears prada,f,it,sa
+f_tri052ait_16k.wav,maria pia di meo,the devil wears prada,f,it,sa
+f_tri052bit_16k.wav,maria pia di meo,the devil wears prada,f,it,sa
+f_tri054ait_16k.wav,maria pia di meo,the devil wears prada,f,it,sa
+f_tri054cit_16k.wav,maria pia di meo,the devil wears prada,f,it,sa
+f_tri071aes_16k.wav,olga cano,the sixth sense,f,es,sa
+f_tri091ben_16k.wav,radha mitchell,finding neverland,f,en,sa
+f_tri091bes_16k.wav,victória pagés,finding neverland,f,es,sa
+f_tri094aen_16k.wav,radha mitchell,finding neverland,f,en,sa
+f_tri094aes_16k.wav,victória pagés,finding neverland,f,es,sa
+f_tri095ben_16k.wav,radha mitchell,finding neverland,f,en,sa
+f_tri096aen_16k.wav,radha mitchell,finding neverland,f,en,sa
+f_tri096aes_16k.wav,victória pagés,finding neverland,f,es,sa
+f_tri096ben_16k.wav,radha mitchell,finding neverland,f,en,sa
+f_tri096bes_16k.wav,victória pagés,finding neverland,f,es,sa
+m_ans001aen_16k.wav,tim robbins,mystic river,m,en,fe
+m_ans001aes_16k.wav,paco gázquez,mystic river,m,es,fe
+m_ans002aen_16k.wav,tim robbins,mystic river,m,en,fe
+m_ans002aes_16k.wav,paco gázquez,mystic river,m,es,fe
+m_ans003aen_16k.wav,tim robbins,mystic river,m,en,fe
+m_ans003aes_16k.wav,paco gázquez,mystic river,m,es,fe
+m_ans003ben_16k.wav,tim robbins,mystic river,m,en,fe
+m_ans003bes_16k.wav,paco gázquez,mystic river,m,es,fe
+m_ans003cen_16k.wav,tim robbins,mystic river,m,en,fe
+m_ans007aen_16k.wav,tim robbins,mystic river,m,en,fe
+m_ans007aes_16k.wav,paco gázquez,mystic river,m,es,fe
+m_ans007ben_16k.wav,tim robbins,mystic river,m,en,fe
+m_ans007bes_16k.wav,paco gázquez,mystic river,m,es,fe
+m_ans007cen_16k.wav,tim robbins,mystic river,m,en,fe
+m_ans007ces_16k.wav,paco gázquez,mystic river,m,es,fe
+m_ans008aen_16k.wav,tim robbins,mystic river,m,en,fe
+m_ans008aes_16k.wav,paco gázquez,mystic river,m,es,fe
+m_ans021aes_16k.wav,antonio lara,saw,m,es,fe
+m_ans022aes_16k.wav,antonio lara,saw,m,es,fe
+m_ans023aes_16k.wav,armando carreras,a beautiful mind,m,es,fe
+m_ans024aes_16k.wav,armando carreras,a beautiful mind,m,es,fe
+m_ans024bes_16k.wav,armando carreras,a beautiful mind,m,es,fe
+m_dis001ait_16k.wav,massimo de ambrosis,american history x,m,it,co
+m_dis008ait_16k.wav,marco mete,meet joe black,m,it,co
+m_dis008ben_16k.wav,jake weber,meet joe black,m,en,co
+m_dis008bes_16k.wav,paco gázquez,meet joe black,m,es,co
+m_dis008bit_16k.wav,marco mete,meet joe black,m,it,co
+m_dis008cen_16k.wav,jake weber,meet joe black,m,en,co
+m_dis008cit_16k.wav,marco mete,meet joe black,m,it,co
+m_dis010ait_16k.wav,marco mete,meet joe black,m,it,co
+m_dis011aen_16k.wav,jake weber,meet joe black,m,en,co
+m_dis011ait_16k.wav,marco mete,meet joe black,m,it,co
+m_dis013aen_16k.wav,jake weber,meet joe black,m,en,co
+m_dis013ait_16k.wav,marco mete,meet joe black,m,it,co
+m_dis014aen_16k.wav,jake weber,meet joe black,m,en,co
+m_dis014aes_16k.wav,paco gázquez,meet joe black,m,es,co
+m_dis014ait_16k.wav,marco mete,meet joe black,m,it,co
+m_dis014bit_16k.wav,marco mete,meet joe black,m,it,co
+m_dis015aen_16k.wav,bradley whitford,bicentennial man,m,en,co
+m_dis015ait_16k.wav,roberto gammino,bicentennial man,m,it,co
+m_dis015ben_16k.wav,bradley whitford,bicentennial man,m,en,co
+m_dis015bit_16k.wav,roberto gammino,bicentennial man,m,it,co
+m_dis016aen_16k.wav,bradley whitford,bicentennial man,m,en,co
+m_dis016ait_16k.wav,roberto gammino,bicentennial man,m,it,co
+m_dis017aen_16k.wav,bradley whitford,bicentennial man,m,en,co
+m_dis018ben_16k.wav,philip seymour hoffman,patch adams,m,en,co
+m_dis020aen_16k.wav,philip seymour hoffman,patch adams,m,en,co
+m_dis021aen_16k.wav,philip seymour hoffman,patch adams,m,en,co
+m_dis021ben_16k.wav,philip seymour hoffman,patch adams,m,en,co
+m_dis101ait_16k.wav,alessio cigliano,brokeback mountain,m,it,co
+m_dis103ait_16k.wav,alessio cigliano,brokeback mountain,m,it,co
+m_dis104ait_16k.wav,alessio cigliano,brokeback mountain,m,it,co
+m_gio001ait_16k.wav,massimo de ambrosis,american history x,m,it,ha
+m_gio001bit_16k.wav,massimo de ambrosis,american history x,m,it,ha
+m_gio002aes_16k.wav,paco gázquez,notting hill,m,es,ha
+m_gio002bes_16k.wav,paco gázquez,notting hill,m,es,ha
+m_gio003aes_16k.wav,paco gázquez,notting hill,m,es,ha
+m_gio003bes_16k.wav,paco gázquez,notting hill,m,es,ha
+m_gio005aes_16k.wav,roger pera,good will hunting,m,es,ha
+m_gio010aes_16k.wav,roger pera,good will hunting,m,es,ha
+m_gio018aes_16k.wav,armando carreras,a beautiful mind,m,es,ha
+m_gio023aen_16k.wav,stanley tucci,the devil wears prada,m,en,ha
+m_gio049aes_16k.wav,rafael calvo,crash,m,es,ha
+m_gio049bes_16k.wav,rafael calvo,crash,m,es,ha
+m_gio058aen_16k.wav,denzel washington,philadelphia,m,en,ha
+m_gio100aen_16k.wav,ethan suplee,american history x,m,en,ha
+m_gio100aes_16k.wav,francisco javier martinez,american history x,m,es,ha
+m_gio103aen_16k.wav,ethan suplee,american history x,m,en,ha
+m_gio103aes_16k.wav,francisco javier martinez,american history x,m,es,ha
+m_gio105aen_16k.wav,ethan suplee,american history x,m,en,ha
+m_gio105aes_16k.wav,francisco javier martinez,american history x,m,es,ha
+m_gio106aen_16k.wav,ethan suplee,american history x,m,en,ha
+m_gio106aes_16k.wav,francisco javier martinez,american history x,m,es,ha
+m_gio107aen_16k.wav,ethan suplee,american history x,m,en,ha
+m_gio107aes_16k.wav,francisco javier martinez,american history x,m,es,ha
+m_gio108ait_16k.wav,massimo de ambrosis,american history x,m,it,ha
+m_gio108ben_16k.wav,guy torry,american history x,m,en,ha
+m_gio145aes_16k.wav,jesus ferrer,falling down,m,es,ha
+m_rab002aen_16k.wav,stephen dillane,the hours,m,en,an
+m_rab002ben_16k.wav,stephen dillane,the hours,m,en,an
+m_rab005den_16k.wav,stephen dillane,the hours,m,en,an
+m_rab006aen_16k.wav,stephen dillane,the hours,m,en,an
+m_rab006ben_16k.wav,stephen dillane,the hours,m,en,an
+m_rab006cen_16k.wav,stephen dillane,the hours,m,en,an
+m_rab010bit_16k.wav,massimo de ambrosis,american history x,m,it,an
+m_rab019cit_16k.wav,massimo de ambrosis,american history x,m,it,an
+m_rab019dit_16k.wav,massimo de ambrosis,american history x,m,it,an
+m_rab019fit_16k.wav,massimo de ambrosis,american history x,m,it,an
+m_rab045aes_16k.wav,roger pera,good will hunting,m,es,an
+m_rab046aes_16k.wav,roger pera,good will hunting,m,es,an
+m_rab047aes_16k.wav,roger pera,good will hunting,m,es,an
+m_rab070aes_16k.wav,antonio lara,saw,m,es,an
+m_rab071aes_16k.wav,antonio lara,saw,m,es,an
+m_rab089bes_16k.wav,sergio gutierrez coto,the interpreter,m,es,an
+m_rab089ces_16k.wav,sergio gutierrez coto,the interpreter,m,es,an
+m_rab090aes_16k.wav,sergio gutierrez coto,the interpreter,m,es,an
+m_rab093aes_16k.wav,sergio gutierrez coto,the interpreter,m,es,an
+m_rab095aen_16k.wav,philip seymour hoffman,patch adams,m,en,an
+m_rab096aen_16k.wav,philip seymour hoffman,patch adams,m,en,an
+m_rab096ben_16k.wav,philip seymour hoffman,patch adams,m,en,an
+m_rab097aen_16k.wav,philip seymour hoffman,patch adams,m,en,an
+m_rab097ben_16k.wav,philip seymour hoffman,patch adams,m,en,an
+m_rab115ait_16k.wav,vittorio di prima,cinderella man,m,it,an
+m_tri001aes_16k.wav,paco gázquez,mystic river,m,es,sa
+m_tri001bes_16k.wav,paco gázquez,mystic river,m,es,sa
+m_tri002aen_16k.wav,tim robbins,mystic river,m,en,sa
+m_tri002aes_16k.wav,paco gázquez,mystic river,m,es,sa
+m_tri002ben_16k.wav,tim robbins,mystic river,m,en,sa
+m_tri002bes_16k.wav,paco gázquez,mystic river,m,es,sa
+m_tri014aes_16k.wav,armando carreras,a beautiful mind,m,es,sa
+m_tri014bes_16k.wav,armando carreras,a beautiful mind,m,es,sa
+m_tri015aes_16k.wav,armando carreras,a beautiful mind,m,es,sa
+m_tri015bes_16k.wav,armando carreras,a beautiful mind,m,es,sa
+m_tri015ces_16k.wav,armando carreras,a beautiful mind,m,es,sa
+m_tri016aes_16k.wav,armando carreras,a beautiful mind,m,es,sa
+m_tri016bes_16k.wav,armando carreras,a beautiful mind,m,es,sa
+m_tri020aen_16k.wav,philip seymour hoffman,patch adams,m,en,sa
+m_tri021aen_16k.wav,philip seymour hoffman,patch adams,m,en,sa
+m_tri021ben_16k.wav,philip seymour hoffman,patch adams,m,en,sa
+m_tri025ben_16k.wav,bruce willis,the sixth sense,m,en,sa
+m_tri026aen_16k.wav,bruce willis,the sixth sense,m,en,sa
+m_tri027aen_16k.wav,bruce willis,the sixth sense,m,en,sa
+m_tri028aen_16k.wav,bruce willis,the sixth sense,m,en,sa
+m_tri028ben_16k.wav,bruce willis,the sixth sense,m,en,sa
+m_tri029ben_16k.wav,bruce willis,the sixth sense,m,en,sa
+m_tri030aen_16k.wav,bruce willis,the sixth sense,m,en,sa
+m_tri030ben_16k.wav,bruce willis,the sixth sense,m,en,sa
+m_tri030cen_16k.wav,bruce willis,the sixth sense,m,en,sa

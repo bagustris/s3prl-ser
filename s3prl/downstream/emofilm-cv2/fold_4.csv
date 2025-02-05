@@ -1,0 +1,176 @@
+file,speaker,film,gender,language,emo
+f_ans024aes_16k.wav,mercedes montalá,bicentennial man,f,es,fe
+f_ans100ait_16k.wav,barbara de bortoli,the impossible,f,it,fe
+f_ans111bit_16k.wav,cristiana lionello,casinò,f,it,fe
+f_ans112ait_16k.wav,cristiana lionello,casinò,f,it,fe
+f_dis014aes_16k.wav,joël mulachs,the devil wears prada,f,es,co
+f_dis014bes_16k.wav,joël mulachs,the devil wears prada,f,es,co
+f_dis016aes_16k.wav,joël mulachs,the devil wears prada,f,es,co
+f_dis016ait_16k.wav,francesca manicone,the devil wears prada,f,it,co
+f_dis024aes_16k.wav,mercedes montalá,bicentennial man,f,es,co
+f_dis024bes_16k.wav,mercedes montalá,bicentennial man,f,es,co
+f_dis025aes_16k.wav,mercedes montalá,bicentennial man,f,es,co
+f_dis190ait_16k.wav,barbara de bortoli,patch adams,f,it,co
+f_dis205aes_16k.wav,joël mulachs,the devil wears prada,f,es,co
+f_gio009aen_16k.wav,minnie driver,good will hunting,f,en,ha
+f_gio014aen_16k.wav,anne hathaway,the devil wears prada,f,en,ha
+f_gio016aen_16k.wav,anne hathaway,the devil wears prada,f,en,ha
+f_gio017aen_16k.wav,anne hathaway,the devil wears prada,f,en,ha
+f_gio030aes_16k.wav,mercedes montalá,bicentennial man,f,es,ha
+f_gio034aes_16k.wav,mercedes montalá,bicentennial man,f,es,ha
+f_gio045ait_16k.wav,micaela esdra,big fish,f,it,ha
+f_gio049aes_16k.wav,mercedes montalá,notting hill,f,es,ha
+f_gio123aen_16k.wav,rachel ticotin,falling down,f,en,ha
+f_gio133aen_16k.wav,michelle duncan,atonement,f,en,ha
+f_gio162aen_16k.wav,hilary swank,million dollar baby,f,en,ha
+f_gio202aen_16k.wav,michelle duncan,atonement,f,en,ha
+f_gio203aen_16k.wav,michelle duncan,atonement,f,en,ha
+f_gio204aen_16k.wav,michelle duncan,atonement,f,en,ha
+f_gio206aen_16k.wav,hilary swank,million dollar baby,f,en,ha
+f_gio207aen_16k.wav,hilary swank,million dollar baby,f,en,ha
+f_gio208aen_16k.wav,hilary swank,million dollar baby,f,en,ha
+f_gio209aen_16k.wav,hilary swank,million dollar baby,f,en,ha
+f_gio210aen_16k.wav,hilary swank,million dollar baby,f,en,ha
+f_gio211aen_16k.wav,michelle duncan,atonement,f,en,ha
+f_gio212aen_16k.wav,hilary swank,million dollar baby,f,en,ha
+f_rab012aes_16k.wav,mercedes montalá,notting hill,f,es,an
+f_rab012bes_16k.wav,mercedes montalá,notting hill,f,es,an
+f_rab012ces_16k.wav,mercedes montalá,notting hill,f,es,an
+f_rab013bes_16k.wav,mercedes montalá,notting hill,f,es,an
+f_rab014aes_16k.wav,mercedes montalá,notting hill,f,es,an
+f_rab015aes_16k.wav,mercedes montalá,notting hill,f,es,an
+f_rab015bes_16k.wav,mercedes montalá,notting hill,f,es,an
+f_rab015ces_16k.wav,mercedes montalá,notting hill,f,es,an
+f_rab015des_16k.wav,mercedes montalá,notting hill,f,es,an
+f_rab027aen_16k.wav,minnie driver,good will hunting,f,en,an
+f_rab029aen_16k.wav,minnie driver,good will hunting,f,en,an
+f_rab034aes_16k.wav,juana beuter,million dollar baby,f,es,an
+f_rab064aes_16k.wav,mercedes montalá,bicentennial man,f,es,an
+f_rab068aes_16k.wav,mercedes montalá,bicentennial man,f,es,an
+f_rab068bes_16k.wav,mercedes montalá,bicentennial man,f,es,an
+f_rab069aes_16k.wav,mercedes montalá,bicentennial man,f,es,an
+f_rab070aes_16k.wav,mercedes montalá,bicentennial man,f,es,an
+f_tri037aes_16k.wav,mercedes montalá,notting hill,f,es,sa
+f_tri040aen_16k.wav,romola garai,atonement,f,en,sa
+f_tri040ben_16k.wav,romola garai,atonement,f,en,sa
+f_tri040cen_16k.wav,romola garai,atonement,f,en,sa
+m_ans030aen_16k.wav,tom hanks,philadelphia,m,en,fe
+m_ans030ait_16k.wav,roberto chevalier,philadelphia,m,it,fe
+m_dis018bit_16k.wav,danilo de girolamo,patch adams,m,it,co
+m_dis019ait_16k.wav,danilo de girolamo,patch adams,m,it,co
+m_dis020bit_16k.wav,danilo de girolamo,patch adams,m,it,co
+m_dis021ait_16k.wav,danilo de girolamo,patch adams,m,it,co
+m_dis021bit_16k.wav,danilo de girolamo,patch adams,m,it,co
+m_dis023ben_16k.wav,robin williams,patch adams,m,en,co
+m_dis027ben_16k.wav,robin williams,patch adams,m,en,co
+m_dis035aen_16k.wav,brendan fraser,crash,m,en,co
+m_dis043ait_16k.wav,roberto chevalier,philadelphia,m,it,co
+m_dis044aen_16k.wav,tom hanks,philadelphia,m,en,co
+m_dis044ait_16k.wav,roberto chevalier,philadelphia,m,it,co
+m_dis044ben_16k.wav,tom hanks,philadelphia,m,en,co
+m_dis044bit_16k.wav,roberto chevalier,philadelphia,m,it,co
+m_dis108ait_16k.wav,massimo rossi,mystic river,m,it,co
+m_dis109ait_16k.wav,pasquale anselmo,brokeback mountain,m,it,co
+m_dis110ait_16k.wav,angelo maggi,notting hill,m,it,co
+m_gio002aen_16k.wav,rhys ifans,notting hill,m,en,ha
+m_gio002ben_16k.wav,rhys ifans,notting hill,m,en,ha
+m_gio002bit_16k.wav,roberto draghetti,notting hill,m,it,ha
+m_gio003aen_16k.wav,rhys ifans,notting hill,m,en,ha
+m_gio003ben_16k.wav,rhys ifans,notting hill,m,en,ha
+m_gio003bit_16k.wav,roberto draghetti,notting hill,m,it,ha
+m_gio004ait_16k.wav,danilo de girolamo,notting hill,m,it,ha
+m_gio005aen_16k.wav,matt damon,good will hunting,m,en,ha
+m_gio010aen_16k.wav,matt damon,good will hunting,m,en,ha
+m_gio013aes_16k.wav,jordi pons,good will hunting,m,es,ha
+m_gio015ait_16k.wav,francesco bulckaen,a beautiful mind,m,it,ha
+m_gio016ait_16k.wav,francesco bulckaen,a beautiful mind,m,it,ha
+m_gio017ait_16k.wav,francesco bulckaen,a beautiful mind,m,it,ha
+m_gio022aen_16k.wav,tom hanks,philadelphia,m,en,ha
+m_gio022ait_16k.wav,roberto chevalier,philadelphia,m,it,ha
+m_gio041aes_16k.wav,alberto mieza,cinderella man,m,es,ha
+m_gio041bes_16k.wav,alberto mieza,cinderella man,m,es,ha
+m_gio046aes_16k.wav,jordi boixaderas,cinderella man,m,es,ha
+m_gio056ait_16k.wav,francesco pannofino,philadelphia,m,it,ha
+m_gio058ait_16k.wav,francesco pannofino,philadelphia,m,it,ha
+m_gio062ait_16k.wav,danilo de girolamo,notting hill,m,it,ha
+m_gio101aen_16k.wav,edward furlong,american history x,m,en,ha
+m_gio109ait_16k.wav,stefano crescentini,american history x,m,it,ha
+m_gio110aes_16k.wav,luis bajo,american history x,m,es,ha
+m_gio110ait_16k.wav,francesco pannofino,american history x,m,it,ha
+m_gio119aes_16k.wav,unknown male,mystic river,m,es,ha
+m_gio119ait_16k.wav,unknown male,mystic river,m,it,ha
+m_gio121ait_16k.wav,unknown male,falling down,m,it,ha
+m_gio122ait_16k.wav,danilo de girolamo,the lives of others,m,it,ha
+m_gio123aes_16k.wav,camilo garcía,falling down,m,es,ha
+m_gio129aen_16k.wav,james mcavoy,atonement,m,en,ha
+m_gio129ait_16k.wav,stefano crescentini,atonement,m,it,ha
+m_gio130ait_16k.wav,alessandro quarta,good will hunting,m,it,ha
+m_gio132ait_16k.wav,unknown male,good will hunting,m,it,ha
+m_gio133ait_16k.wav,unknown male,good will hunting,m,it,ha
+m_gio134ait_16k.wav,stefano crescentini,american history x,m,it,ha
+m_gio135aen_16k.wav,matt damon,good will hunting,m,en,ha
+m_gio137ait_16k.wav,gianni musy,casinò,m,it,ha
+m_gio138ait_16k.wav,gianni musy,casinò,m,it,ha
+m_gio139ait_16k.wav,gianni musy,casinò,m,it,ha
+m_gio140aes_16k.wav,camilo garcía,falling down,m,es,ha
+m_gio140bes_16k.wav,camilo garcía,falling down,m,es,ha
+m_gio144aen_16k.wav,matt damon,good will hunting,m,en,ha
+m_gio144ben_16k.wav,matt damon,good will hunting,m,en,ha
+m_gio146aes_16k.wav,alberto mieza,the lives of others,m,es,ha
+m_gio146bes_16k.wav,alberto mieza,the lives of others,m,es,ha
+m_rab002ait_16k.wav,angelo maggi,the hours,m,it,an
+m_rab002bit_16k.wav,angelo maggi,the hours,m,it,an
+m_rab006ait_16k.wav,angelo maggi,the hours,m,it,an
+m_rab006bit_16k.wav,angelo maggi,the hours,m,it,an
+m_rab006cit_16k.wav,angelo maggi,the hours,m,it,an
+m_rab020ait_16k.wav,stefano crescentini,american history x,m,it,an
+m_rab021ait_16k.wav,massimo rossi,mystic river,m,it,an
+m_rab021bit_16k.wav,massimo rossi,mystic river,m,it,an
+m_rab021cit_16k.wav,massimo rossi,mystic river,m,it,an
+m_rab022ait_16k.wav,unknown male,the reader,m,it,an
+m_rab050aen_16k.wav,robin williams,good will hunting,m,en,an
+m_rab055aen_16k.wav,robin williams,good will hunting,m,en,an
+m_rab055den_16k.wav,robin williams,good will hunting,m,en,an
+m_rab064aes_16k.wav,camilo garcía,falling down,m,es,an
+m_rab084aes_16k.wav,camilo garcía,meet joe black,m,es,an
+m_rab087aes_16k.wav,camilo garcía,meet joe black,m,es,an
+m_rab087bes_16k.wav,camilo garcía,meet joe black,m,es,an
+m_rab089bit_16k.wav,massimo rossi,the interpreter,m,it,an
+m_rab096bit_16k.wav,danilo de girolamo,patch adams,m,it,an
+m_rab097ait_16k.wav,danilo de girolamo,patch adams,m,it,an
+m_rab097bit_16k.wav,danilo de girolamo,patch adams,m,it,an
+m_rab102aen_16k.wav,robin williams,patch adams,m,en,an
+m_tri004ait_16k.wav,massimo rossi,mystic river,m,it,sa
+m_tri004bit_16k.wav,massimo rossi,mystic river,m,it,sa
+m_tri004eit_16k.wav,massimo rossi,mystic river,m,it,sa
+m_tri005ait_16k.wav,massimo rossi,mystic river,m,it,sa
+m_tri005bit_16k.wav,massimo rossi,mystic river,m,it,sa
+m_tri005cit_16k.wav,massimo rossi,mystic river,m,it,sa
+m_tri005dit_16k.wav,massimo rossi,mystic river,m,it,sa
+m_tri005eit_16k.wav,massimo rossi,mystic river,m,it,sa
+m_tri006ait_16k.wav,massimo rossi,mystic river,m,it,sa
+m_tri007ait_16k.wav,unknown male,mystic river,m,it,sa
+m_tri008ait_16k.wav,unknown male,mystic river,m,it,sa
+m_tri008bit_16k.wav,unknown male,mystic river,m,it,sa
+m_tri008cit_16k.wav,unknown male,mystic river,m,it,sa
+m_tri009ait_16k.wav,unknown male,mystic river,m,it,sa
+m_tri009bit_16k.wav,unknown male,mystic river,m,it,sa
+m_tri009cit_16k.wav,unknown male,mystic river,m,it,sa
+m_tri012aen_16k.wav,morgan freeman,million dollar baby,m,en,sa
+m_tri012aes_16k.wav,pepe mediavilla,million dollar baby,m,es,sa
+m_tri012ben_16k.wav,morgan freeman,million dollar baby,m,en,sa
+m_tri012bes_16k.wav,pepe mediavilla,million dollar baby,m,es,sa
+m_tri025aes_16k.wav,ramón langa,the sixth sense,m,es,sa
+m_tri025ait_16k.wav,angelo maggi,the sixth sense,m,it,sa
+m_tri026ait_16k.wav,ramón langa,the sixth sense,m,it,sa
+m_tri028aes_16k.wav,ramón langa,the sixth sense,m,es,sa
+m_tri028ait_16k.wav,angelo maggi,the sixth sense,m,it,sa
+m_tri028bit_16k.wav,angelo maggi,the sixth sense,m,it,sa
+m_tri029aes_16k.wav,ramón langa,the sixth sense,m,es,sa
+m_tri029ait_16k.wav,angelo maggi,the sixth sense,m,it,sa
+m_tri029bit_16k.wav,angelo maggi,the sixth sense,m,it,sa
+m_tri030ait_16k.wav,angelo maggi,the sixth sense,m,it,sa
+m_tri030bes_16k.wav,ramón langa,the sixth sense,m,es,sa
+m_tri030bit_16k.wav,angelo maggi,the sixth sense,m,it,sa
+m_tri030ces_16k.wav,ramón langa,the sixth sense,m,es,sa
+m_tri030cit_16k.wav,angelo maggi,the sixth sense,m,it,sa

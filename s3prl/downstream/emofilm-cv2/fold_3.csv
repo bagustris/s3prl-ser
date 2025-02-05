@@ -1,0 +1,282 @@
+file,speaker,film,gender,language,emo
+f_ans009ben_16k.wav,tuesday weld,falling down,f,en,fe
+f_ans010aen_16k.wav,tuesday weld,falling down,f,en,fe
+f_ans032aen_16k.wav,renée zellweger,cinderella man,f,en,fe
+f_ans040aen_16k.wav,rosemarie dewitt,cinderella man,f,en,fe
+f_ans041aen_16k.wav,rosemarie dewitt,cinderella man,f,en,fe
+f_ans041ben_16k.wav,rosemarie dewitt,cinderella man,f,en,fe
+f_ans042aen_16k.wav,rosemarie dewitt,cinderella man,f,en,fe
+f_ans042ben_16k.wav,rosemarie dewitt,cinderella man,f,en,fe
+f_ans043aen_16k.wav,rosemarie dewitt,cinderella man,f,en,fe
+f_ans044aen_16k.wav,rosemarie dewitt,cinderella man,f,en,fe
+f_ans044ben_16k.wav,rosemarie dewitt,cinderella man,f,en,fe
+f_ans045aen_16k.wav,rosemarie dewitt,cinderella man,f,en,fe
+f_ans101ait_16k.wav,laura boccanera,fligthplan,f,it,fe
+f_ans102ait_16k.wav,laura boccanera,fligthplan,f,it,fe
+f_ans103ait_16k.wav,laura boccanera,fligthplan,f,it,fe
+f_ans104ait_16k.wav,laura boccanera,fligthplan,f,it,fe
+f_ans105ait_16k.wav,laura boccanera,fligthplan,f,it,fe
+f_ans106ait_16k.wav,laura boccanera,fligthplan,f,it,fe
+f_ans108ait_16k.wav,laura boccanera,fligthplan,f,it,fe
+f_ans109ait_16k.wav,laura boccanera,fligthplan,f,it,fe
+f_ans109bit_16k.wav,laura boccanera,fligthplan,f,it,fe
+f_ans901aes_16k.wav,conchi lopez,the others,f,es,fe
+f_ans901bes_16k.wav,conchi lopez,the others,f,es,fe
+f_ans901ces_16k.wav,conchi lopez,the others,f,es,fe
+f_ans902aes_16k.wav,conchi lopez,the others,f,es,fe
+f_ans902bes_16k.wav,conchi lopez,the others,f,es,fe
+f_ans902ces_16k.wav,conchi lopez,the others,f,es,fe
+f_ans902des_16k.wav,conchi lopez,the others,f,es,fe
+f_ans905aes_16k.wav,conchi lopez,the others,f,es,fe
+f_dis008ait_16k.wav,valentina carnelutti,my life without me,f,it,co
+f_dis009ait_16k.wav,valentina carnelutti,my life without me,f,it,co
+f_dis024aen_16k.wav,embeth davidtz,bicentennial man,f,en,co
+f_dis025aen_16k.wav,embeth davidtz,bicentennial man,f,en,co
+f_dis026aen_16k.wav,embeth davidtz,bicentennial man,f,en,co
+f_dis027aen_16k.wav,bahar soomekh,crash,f,en,co
+f_dis027aes_16k.wav,mercedes diemand-hartz,crash,f,es,co
+f_dis027ben_16k.wav,bahar soomekh,crash,f,en,co
+f_dis027bes_16k.wav,mercedes diemand-hartz,crash,f,es,co
+f_dis028aen_16k.wav,bahar soomekh,crash,f,en,co
+f_dis028aes_16k.wav,mercedes diemand-hartz,crash,f,es,co
+f_dis029aes_16k.wav,ana pallejà,crash,f,es,co
+f_dis037aen_16k.wav,vinessa shaw,side effects,f,en,co
+f_dis037ait_16k.wav,francesca fiorentini,side effects,f,it,co
+f_dis038aen_16k.wav,vinessa shaw,side effects,f,en,co
+f_dis038ait_16k.wav,francesca fiorentini,side effects,f,it,co
+f_dis039aen_16k.wav,vinessa shaw,side effects,f,en,co
+f_dis039ait_16k.wav,francesca fiorentini,side effects,f,it,co
+f_dis042aen_16k.wav,helena bonham carter,big fish,f,en,co
+f_dis043aen_16k.wav,helena bonham carter,big fish,f,en,co
+f_dis901aes_16k.wav,conchi lopez,the others,f,es,co
+f_dis902aes_16k.wav,conchi lopez,the others,f,es,co
+f_gio002aes_16k.wav,pepa castro,antichrist,f,es,ha
+f_gio002ait_16k.wav,valentina carnelutti,antichrist,f,it,ha
+f_gio014ait_16k.wav,connie bismuto,the devil wears prada,f,it,ha
+f_gio019ait_16k.wav,connie bismuto,the devil wears prada,f,it,ha
+f_gio030aen_16k.wav,embeth davidtz,bicentennial man,f,en,ha
+f_gio034aen_16k.wav,embeth davidtz,bicentennial man,f,en,ha
+f_gio040aen_16k.wav,rooney mara,side effects,f,en,ha
+f_gio040aes_16k.wav,isabel valls,side effects,f,es,ha
+f_gio047ait_16k.wav,francesca fiorentini,finding neverland,f,it,ha
+f_gio049aen_16k.wav,julia roberts,notting hill,f,en,ha
+f_gio049ben_16k.wav,julia roberts,notting hill,f,en,ha
+f_gio101aen_16k.wav,keira knightley,atonement,f,en,ha
+f_gio120ait_16k.wav,rosella izzo,falling down,f,it,ha
+f_gio123aes_16k.wav,maria jesus lleonart,falling down,f,es,ha
+f_gio125aen_16k.wav,claire forlani,meet joe black,f,en,ha
+f_gio126aen_16k.wav,claire forlani,meet joe black,f,en,ha
+f_gio144aen_16k.wav,marcia gay harden,meet joe black,f,en,ha
+f_gio189ait_16k.wav,silvia tognoloni,american history x,f,it,ha
+f_gio200ait_16k.wav,laura boccanera,american history x,f,it,ha
+f_gio203ait_16k.wav,laura boccanera,the lives of others,f,it,ha
+f_gio218ait_16k.wav,laura boccanera,notting hill,f,it,ha
+f_gio219ait_16k.wav,laura boccanera,notting hill,f,it,ha
+f_rab002ait_16k.wav,valentina carnelutti,antichrist,f,it,an
+f_rab003aes_16k.wav,pepa castro,antichrist,f,es,an
+f_rab012aen_16k.wav,julia roberts,notting hill,f,en,an
+f_rab012ait_16k.wav,laura boccanera,notting hill,f,it,an
+f_rab012ben_16k.wav,julia roberts,notting hill,f,en,an
+f_rab012bit_16k.wav,laura boccanera,notting hill,f,it,an
+f_rab012cen_16k.wav,julia roberts,notting hill,f,en,an
+f_rab012cit_16k.wav,laura boccanera,notting hill,f,it,an
+f_rab013aen_16k.wav,julia roberts,notting hill,f,en,an
+f_rab013ben_16k.wav,julia roberts,notting hill,f,en,an
+f_rab013bit_16k.wav,laura boccanera,notting hill,f,it,an
+f_rab014aen_16k.wav,julia roberts,notting hill,f,en,an
+f_rab014ait_16k.wav,laura boccanera,notting hill,f,it,an
+f_rab015aen_16k.wav,julia roberts,notting hill,f,en,an
+f_rab015ait_16k.wav,laura boccanera,notting hill,f,it,an
+f_rab015ben_16k.wav,julia roberts,notting hill,f,en,an
+f_rab015bit_16k.wav,laura boccanera,notting hill,f,it,an
+f_rab015cen_16k.wav,julia roberts,notting hill,f,en,an
+f_rab015cit_16k.wav,laura boccanera,notting hill,f,it,an
+f_rab015den_16k.wav,julia roberts,notting hill,f,en,an
+f_rab015dit_16k.wav,laura boccanera,notting hill,f,it,an
+f_rab037aen_16k.wav,keira knightley,atonement,f,en,an
+f_rab042aen_16k.wav,tuesday weld,falling down,f,en,an
+f_rab064aen_16k.wav,embeth davidtz,bicentennial man,f,en,an
+f_rab068aen_16k.wav,embeth davidtz,bicentennial man,f,en,an
+f_rab068ben_16k.wav,embeth davidtz,bicentennial man,f,en,an
+f_rab069aen_16k.wav,embeth davidtz,bicentennial man,f,en,an
+f_rab070aen_16k.wav,embeth davidtz,bicentennial man,f,en,an
+f_rab070ben_16k.wav,embeth davidtz,bicentennial man,f,en,an
+f_rab082aen_16k.wav,renée zellweger,cinderella man,f,en,an
+f_rab082ben_16k.wav,renée zellweger,cinderella man,f,en,an
+f_rab083aen_16k.wav,renée zellweger,cinderella man,f,en,an
+f_rab083ben_16k.wav,renée zellweger,cinderella man,f,en,an
+f_rab083cen_16k.wav,renée zellweger,cinderella man,f,en,an
+f_rab084aen_16k.wav,renée zellweger,cinderella man,f,en,an
+f_rab084ben_16k.wav,renée zellweger,cinderella man,f,en,an
+f_rab087aen_16k.wav,renée zellweger,cinderella man,f,en,an
+f_rab089cit_16k.wav,laura boccanera,crash,f,it,an
+f_rab090ait_16k.wav,laura boccanera,crash,f,it,an
+f_rab090bit_16k.wav,laura boccanera,crash,f,it,an
+f_rab092bes_16k.wav,ana pallejà,crash,f,es,an
+f_rab094aes_16k.wav,ana pallejà,crash,f,es,an
+f_rab098aen_16k.wav,vinessa shaw,side effects,f,en,an
+f_rab098ait_16k.wav,francesca fiorentini,side effects,f,it,an
+f_rab099aen_16k.wav,vinessa shaw,side effects,f,en,an
+f_rab099ait_16k.wav,francesca fiorentini,side effects,f,it,an
+f_rab100ait_16k.wav,francesca fiorentini,side effects,f,it,an
+f_tri001aes_16k.wav,pepa castro,antichrist,f,es,sa
+f_tri001ait_16k.wav,valentina carnelutti,antichrist,f,it,sa
+f_tri002aes_16k.wav,pepa castro,antichrist,f,es,sa
+f_tri002ait_16k.wav,valentina carnelutti,antichrist,f,it,sa
+f_tri003aes_16k.wav,pepa castro,antichrist,f,es,sa
+f_tri004aes_16k.wav,pepa castro,antichrist,f,es,sa
+f_tri004bit_16k.wav,valentina carnelutti,antichrist,f,it,sa
+f_tri005aes_16k.wav,pepa castro,antichrist,f,es,sa
+f_tri005ait_16k.wav,valentina carnelutti,antichrist,f,it,sa
+f_tri005bes_16k.wav,pepa castro,antichrist,f,es,sa
+f_tri005bit_16k.wav,valentina carnelutti,antichrist,f,it,sa
+f_tri006aes_16k.wav,pepa castro,antichrist,f,es,sa
+f_tri006ait_16k.wav,valentina carnelutti,antichrist,f,it,sa
+f_tri007aes_16k.wav,pepa castro,antichrist,f,es,sa
+f_tri007ait_16k.wav,valentina carnelutti,antichrist,f,it,sa
+f_tri007bit_16k.wav,valentina carnelutti,antichrist,f,it,sa
+f_tri008aes_16k.wav,pepa castro,antichrist,f,es,sa
+f_tri008ait_16k.wav,valentina carnelutti,antichrist,f,it,sa
+f_tri009aes_16k.wav,pepa castro,antichrist,f,es,sa
+f_tri010aes_16k.wav,pepa castro,antichrist,f,es,sa
+f_tri014ait_16k.wav,valentina carnelutti,my life without me,f,it,sa
+f_tri017ait_16k.wav,valentina carnelutti,my life without me,f,it,sa
+f_tri018ait_16k.wav,valentina carnelutti,my life without me,f,it,sa
+f_tri023ait_16k.wav,francesca fiorentini,the hours,f,it,sa
+f_tri027ait_16k.wav,francesca fiorentini,the hours,f,it,sa
+f_tri032cen_16k.wav,marcia gay harden,mystic river,f,en,sa
+f_tri039aen_16k.wav,keira knightley,atonement,f,en,sa
+f_tri039ben_16k.wav,keira knightley,atonement,f,en,sa
+f_tri039cen_16k.wav,keira knightley,atonement,f,en,sa
+f_tri040aes_16k.wav,mar bordallo,atonement,f,es,sa
+f_tri040bes_16k.wav,mar bordallo,atonement,f,es,sa
+f_tri040ces_16k.wav,mar bordallo,atonement,f,es,sa
+f_tri081aen_16k.wav,renée zellweger,cinderella man,f,en,sa
+f_tri081ben_16k.wav,renée zellweger,cinderella man,f,en,sa
+m_ans002ait_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans003ait_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans003bit_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans003cit_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans007ait_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans007bit_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans007cit_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans008ait_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans011aes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans013aes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans014aes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans014bes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans015bes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans016aes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans016bes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans020bes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans020ces_16k.wav,xavier fernández,saw,m,es,fe
+m_ans020des_16k.wav,xavier fernández,saw,m,es,fe
+m_ans030aes_16k.wav,jordi brau,philadelphia,m,es,fe
+m_ans101aes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans105aes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans105bes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans106aes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans107aes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans115ait_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans119ait_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans120ait_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans122ait_16k.wav,stefano de sando,mystic river,m,it,fe
+m_ans124aes_16k.wav,xavier fernández,saw,m,es,fe
+m_ans124bes_16k.wav,xavier fernández,saw,m,es,fe
+m_dis001aen_16k.wav,edward norton,american history x,m,en,co
+m_dis001aes_16k.wav,guillermo romero,american history x,m,es,co
+m_dis003aes_16k.wav,xavier fernández,saw,m,es,co
+m_dis003bes_16k.wav,xavier fernández,saw,m,es,co
+m_dis005aes_16k.wav,xavier fernández,saw,m,es,co
+m_dis023bes_16k.wav,jordi brau,patch adams,m,es,co
+m_dis023bit_16k.wav,carlo valli,patch adams,m,it,co
+m_dis023ces_16k.wav,jordi brau,patch adams,m,es,co
+m_dis023cit_16k.wav,carlo valli,patch adams,m,it,co
+m_dis035ait_16k.wav,massimo lodolo,crash,m,it,co
+m_dis035bit_16k.wav,massimo lodolo,crash,m,it,co
+m_dis043aes_16k.wav,jordi brau,philadelphia,m,es,co
+m_dis044aes_16k.wav,jordi brau,philadelphia,m,es,co
+m_dis044bes_16k.wav,jordi brau,philadelphia,m,es,co
+m_dis107ait_16k.wav,fabrizio vidale,brokeback mountain,m,it,co
+m_gio001aen_16k.wav,edward norton,american history x,m,en,ha
+m_gio001aes_16k.wav,guillermo romero,american history x,m,es,ha
+m_gio001ben_16k.wav,edward norton,american history x,m,en,ha
+m_gio001bes_16k.wav,guillermo romero,american history x,m,es,ha
+m_gio014ait_16k.wav,pietro biondi,falling down,m,it,ha
+m_gio022aes_16k.wav,jordi brau,philadelphia,m,es,ha
+m_gio100ait_16k.wav,simone mori,american history x,m,it,ha
+m_gio102aen_16k.wav,edward norton,american history x,m,en,ha
+m_gio102aes_16k.wav,guillermo romero,american history x,m,es,ha
+m_gio103ait_16k.wav,simone mori,american history x,m,it,ha
+m_gio108aen_16k.wav,edward norton,american history x,m,en,ha
+m_gio108aes_16k.wav,guillermo romero,american history x,m,es,ha
+m_gio108bes_16k.wav,miguel zuniga,american history x,m,es,ha
+m_gio111aes_16k.wav,xavier fernández,saw,m,es,ha
+m_gio113ait_16k.wav,carlo valli,patch adams,m,it,ha
+m_gio114ait_16k.wav,carlo valli,patch adams,m,it,ha
+m_gio115ait_16k.wav,fabrizio vidale,brokeback mountain,m,it,ha
+m_gio116ait_16k.wav,fabrizio vidale,brokeback mountain,m,it,ha
+m_gio117ait_16k.wav,fabrizio vidale,brokeback mountain,m,it,ha
+m_gio120ait_16k.wav,pietro biondi,falling down,m,it,ha
+m_gio123ait_16k.wav,pietro biondi,falling down,m,it,ha
+m_gio124ait_16k.wav,cesare barbetti,l'uomo che sussurrava,m,it,ha
+m_gio125ait_16k.wav,cesare barbetti,l'uomo che sussurrava,m,it,ha
+m_gio127ait_16k.wav,cesare barbetti,l'uomo che sussurrava,m,it,ha
+m_gio128ait_16k.wav,cesare barbetti,l'uomo che sussurrava,m,it,ha
+m_gio140ait_16k.wav,pietro biondi,falling down,m,it,ha
+m_rab007ait_16k.wav,luca biaggini,the hours,m,it,an
+m_rab009ait_16k.wav,luca biaggini,the hours,m,it,an
+m_rab010ben_16k.wav,edward norton,american history x,m,en,an
+m_rab021aen_16k.wav,sean penn,mystic river,m,en,an
+m_rab021ben_16k.wav,sean penn,mystic river,m,en,an
+m_rab021bes_16k.wav,jordi brau,mystic river,m,es,an
+m_rab021cen_16k.wav,sean penn,mystic river,m,en,an
+m_rab021ces_16k.wav,jordi brau,mystic river,m,es,an
+m_rab021den_16k.wav,sean penn,mystic river,m,en,an
+m_rab021des_16k.wav,jordi brau,mystic river,m,es,an
+m_rab050aes_16k.wav,jordi brau,good will hunting,m,es,an
+m_rab050ait_16k.wav,carlo valli,good will hunting,m,it,an
+m_rab053ces_16k.wav,jordi brau,good will hunting,m,es,an
+m_rab053cit_16k.wav,carlo valli,good will hunting,m,it,an
+m_rab055aes_16k.wav,jordi brau,good will hunting,m,es,an
+m_rab055ait_16k.wav,carlo valli,good will hunting,m,it,an
+m_rab055bes_16k.wav,jordi brau,good will hunting,m,es,an
+m_rab055bit_16k.wav,carlo valli,good will hunting,m,it,an
+m_rab055ces_16k.wav,jordi brau,good will hunting,m,es,an
+m_rab055cit_16k.wav,carlo valli,good will hunting,m,it,an
+m_rab055dit_16k.wav,carlo valli,good will hunting,m,it,an
+m_rab064bit_16k.wav,pietro biondi,falling down,m,it,an
+m_rab067aes_16k.wav,xavier fernández,saw,m,es,an
+m_rab084ait_16k.wav,dario penne,meet joe black,m,it,an
+m_rab087ait_16k.wav,dario penne,meet joe black,m,it,an
+m_rab089ben_16k.wav,sean penn,the interpreter,m,en,an
+m_rab090aen_16k.wav,sean penn,the interpreter,m,en,an
+m_rab092aen_16k.wav,sean penn,the interpreter,m,en,an
+m_rab102bit_16k.wav,carlo valli,patch adams,m,it,an
+m_tri001ait_16k.wav,stefano de sando,mystic river,m,it,sa
+m_tri001bit_16k.wav,stefano de sando,mystic river,m,it,sa
+m_tri002ait_16k.wav,stefano de sando,mystic river,m,it,sa
+m_tri002bit_16k.wav,stefano de sando,mystic river,m,it,sa
+m_tri004ben_16k.wav,sean penn,mystic river,m,en,sa
+m_tri004een_16k.wav,sean penn,mystic river,m,en,sa
+m_tri005aen_16k.wav,sean penn,mystic river,m,en,sa
+m_tri005aes_16k.wav,jordi brau,mystic river,m,es,sa
+m_tri005bes_16k.wav,jordi brau,mystic river,m,es,sa
+m_tri005cen_16k.wav,sean penn,mystic river,m,en,sa
+m_tri005ces_16k.wav,jordi brau,mystic river,m,es,sa
+m_tri005des_16k.wav,jordi brau,mystic river,m,es,sa
+m_tri005een_16k.wav,sean penn,mystic river,m,en,sa
+m_tri005ees_16k.wav,jordi brau,mystic river,m,es,sa
+m_tri011aen_16k.wav,clint eastwood,million dollar baby,m,en,sa
+m_tri011aes_16k.wav,constantino romero,million dollar baby,m,es,sa
+m_tri011bes_16k.wav,constantino romero,million dollar baby,m,es,sa
+m_tri011cen_16k.wav,clint eastwood,million dollar baby,m,en,sa
+m_tri011ces_16k.wav,constantino romero,million dollar baby,m,es,sa
+m_tri011den_16k.wav,clint eastwood,million dollar baby,m,en,sa
+m_tri011des_16k.wav,constantino romero,million dollar baby,m,es,sa
+m_tri011een_16k.wav,clint eastwood,million dollar baby,m,en,sa
+m_tri011ees_16k.wav,constantino romero,million dollar baby,m,es,sa
+m_tri011fen_16k.wav,clint eastwood,million dollar baby,m,en,sa
+m_tri011fes_16k.wav,constantino romero,million dollar baby,m,es,sa
+m_tri011gen_16k.wav,clint eastwood,million dollar baby,m,en,sa
+m_tri011ges_16k.wav,constantino romero,million dollar baby,m,es,sa
